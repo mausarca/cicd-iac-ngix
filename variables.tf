@@ -3,10 +3,11 @@ variable "aws_region" {
   default     = "us-east-1"
 }
 
-variable "aws_profile" {
-  description = "AWS CLI profile to use"
-  default     = "default"
+
+variable "role_arn" {
+  type = string
 }
+
 
 variable "name" {
   description = "Prefix for all resources"
