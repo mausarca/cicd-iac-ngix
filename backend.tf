@@ -3,6 +3,7 @@
 # =============================================================================
 
 terraform {
+  /*
   # Backend local - estado en terraform.tfstate
   # Para usar S3 backend, descomenta y configura:
   
@@ -12,5 +13,5 @@ terraform {
     region         = "us-east-1"
     encrypt        = true
   }
-  
+  */
 }
